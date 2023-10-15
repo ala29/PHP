@@ -1,0 +1,213 @@
+
+	  .slider{
+	      	 width:900px;
+			 overflow:hidden;
+			 margin:0px auto;
+			 height:506px;
+	      }
+		  
+	   .sct{
+		   clear:both;
+		    background-image : linear-gradient(#E4F5FF,#ebf8fb);
+	   }
+	
+	  .slides{
+	       width:calc(900px*5);
+		   animation:glisse 50s infinite;
+	      }
+		
+		.slide{
+		  float:left;
+		}
+		
+		.slide{
+		   filter: blur(0px);
+			}
+			
+		
+		.slidep1 {
+            position:absolute;
+            bottom:0%;
+            left: 6px;
+			color:white;
+			font-family: Arial, Helvetica, sans-serif;
+			 font-weight: bold;
+            background-color: rgba(0,0,0, 0.4);
+			width:53%;
+			height:100%;
+       }
+	   
+	   .sp1{
+		   font-size:400%;
+	   }
+	   
+	   .sp1 a:hover{
+		   color:lightgreen;
+	       font-family:monospace;
+	       font-size:150%;
+	   }
+	  
+	   .slidep1 a{
+		  text-decoration:none; 
+		  color:white;
+	   }
+	   
+	   
+	   .sp2{
+		  font-size:200%; 
+	   }
+	   
+
+		@keyframes glisse{
+			0%{
+				transform:translateX(0);
+			}
+			10%{
+				transform:translateX(0);
+			}
+			
+			20%{
+				transform:translateX(-900px);
+			}
+			30%{
+				transform:translateX(-900px);
+			}
+			
+			40%{
+				transform:translateX(-1800px);
+			}
+			50%{
+				transform:translateX(-1800px);
+			}
+			
+			60%{
+				transform:translateX(-2700px);
+			}
+			70%{
+				transform:translateX(-2700px);
+			}
+			
+			80%{
+				transform:translateX(-3600px);
+			}
+			90%{
+				transform:translateX(-3600px);
+			}
+
+			100%{
+				transform:translateX(0);
+			}
+		}
+		/* *****************parti transition***************** */
+		
+		
+		/* *************************parti events************************* */
+.tous{
+	border:solid 1px gray;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#spec,#spec2{
+	padding-bottom:8%;
+}
+
+#ev{
+	clear:both;
+}
+
+.images_events{
+	padding:5px;
+	width:100%;
+	/* height:auto; */
+}
+
+*{
+box-sizing: border-box;	
+}
+
+.descrip{
+	padding:15px;
+	text-align:left;
+}
+
+
+.all{
+	padding:0.6px;
+   float:left;
+    width:24%;
+    margin:10px 3px;
+	display:inline-block;
+}
+
+@media only screen and (max-width: 900px) {
+  .all {
+	 display:block;
+     width:60%;
+    margin-left:20%;	
+  }
+ 
+}
+ 
+
+#tt{
+    background:linear-gradient(#25FF53,#0728C1);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-size:30px;
+	font-family:monospace;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+ /*************************************************************************/
+
+
+#quiqui{
+	background-color:#ebf8fb;
+}
+
+#quiimg{
+    width:50%;
+	height:465px;
+	float:left;
+}
+
+
+#quip{
+padding:30px;
+text-align:center;
+}
+
+#p2{
+	font-size:50px;
+	font-style:oblique;
+    background:-webkit-linear-gradient(#67FFF1,#0728C1);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#p4, #p3{
+	font-style:oblique;
+	color:#062490;
+	font-family:cursive;
+	font-size:20px;
+}
+#p1{
+font-family:cursive;
+color:#062490;
+}
+
+
+
+@media only screen and (max-width:900px){
+	#quip{
+		clear:both;	
+	}
+	
+	#quiimg{
+		width:100%;
+	}
+	
+}

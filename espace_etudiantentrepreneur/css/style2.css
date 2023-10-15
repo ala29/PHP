@@ -1,0 +1,246 @@
+
+
+
+.meets{
+	background-color:#EFFEFF;
+	padding-bottom:50px;
+	clear:both;
+}
+
+.titres{	
+    background:linear-gradient(#25FF53,#0728C1);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-size:50px;
+	font-family:monospace;
+}
+
+.imag{
+width:340px;
+height:340px;
+}
+.carte{
+  width: 340px;
+  height: 340px;
+  margin-left:55px;
+  margin-bottom:20px;
+  display:inline-block;
+}
+.carteinner {
+  /* position: relative; */
+  width:100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.carte:hover .carteinner {
+  transform:rotateY(180deg);
+}
+.back {
+  color:balck;
+  transform:rotateY(180deg);
+   font-family: Arial, Helvetica, sans-serif;
+	  padding-left:20px;
+}
+
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.p2{
+	font-size:13px;
+	padding-left:5px;
+}
+
+.inscrit{
+  border: none;
+  color: white;
+  padding: 13px 17px;
+  font-size: 16px;
+  cursor: pointer;
+        bottom:0;
+		left:0;
+        position:absolute;
+		margin-left:10px;
+		margin-bottom:2px;
+   
+}
+.p1{
+	color:black;
+	font-size:20px;
+		bottom:0;
+		right:0;
+        position:absolute;
+		margin-right:7px;
+		
+}
+
+
+#pers1{	
+background-color:lightblue;
+}
+
+#pers2{	
+background-color:#D6FFF3
+}
+#pers3{	
+background-color:#FFE0AE;
+}
+
+#pp{
+color:blue;	
+}
+#ppp{
+color:#00C077;		
+}
+
+#pppp{
+color:#FF9D11;		
+}
+#b{
+	background-color:blue;
+}
+#bb{
+	background-color:#00C077;
+}
+#bbb{
+	background-color:#FF9D11;
+}
+
+
+
+
+.box{
+border:2px dashed gray;
+width:88.5%;
+height:90px;
+margin-left:55px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.box:hover{
+	border:2px solid blue;
+	color:blue; 
+}
+
+
+
+#plus{
+	font-size:30px;
+	font-family:arial;
+	text-align:center;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+@media only screen and (max-width:800px){
+	.box{
+		width:340px;
+        height:90px;
+	}
+
+}
+.matiere1{
+	 font-size:30px;
+	 font-family:arial;
+	 padding-left:20px;
+	 color:#7DE1E9;
+    text-shadow: 1px 1px #000;
+
+}
+
+
+
+
+
+
+
+
+.info{
+	width:60px;
+	vertical-align:top;
+	padding-top:10px;
+}
+.subject{
+	border:1px solid grey;
+	border-radius:6px;
+	width:30%;
+    padding-left:20px;
+    display:inline-block;
+    margin-right:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+    background-color:white;    
+}
+
+.nommat{
+	font-size:30px;
+}
+
+.lesmatieres{
+margin-left:60px;
+margin-top:20px;
+}
+.sub1:hover{
+	background-color:#fdfdc4;
+}
+.sub2:hover{
+	background-color:#ffe8cf;
+}
+.sub3:hover{
+	background-color:#ffdede;
+}
+
+.allofall{
+	 background-image: url("../images/téléchargement.jpg");
+}
+.dis:hover{
+	color:#09ACFE;
+	font-family:monospace;
+	font-size:15px;
+	font-weight:bolder;
+	 
+}
+
+
+@media only screen and (max-width:1200px){
+	.subject{
+		width:80%;
+		text-align:center;
+		display:block;
+		margin-top:30px;
+	}
+	
+}
+
+
+
+/* ******* formation design********* */
+#formations{
+	background-image : linear-gradient(#C8E8FF,#B3FFF6);
+}
+
+#formations img{
+	border-radius:100px;
+	margin-right:4%;
+	margin-left:10%;
+}
+
+
+.firstf{
+display:block;
+padding:2% 0;
+}	
+	
+.im img:hover{
+	width:17%;
+	box-shadow: 0 0 2px 3px rgba(0, 140, 186, 0.5);  
+}
+	
+	
+	
+	

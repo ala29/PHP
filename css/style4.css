@@ -1,0 +1,271 @@
+
+
+
+.firstmess{
+	
+	clear:both;
+	background-image:url(https://img.freepik.com/vecteurs-libre/gens-multiculturels-debout-ensemble_74855-6583.jpg?t=st=1673087172~exp=1673087772~hmac=b8a320d59e3149b1d30bddbfd2d1a0c605d5a735d62d67f11a0ee6d0b5031861);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#ffcfbf;
+}
+
+#FM p{
+	font-size:50px;
+	padding:50px;
+	text-align:center;
+	font-family: "Helvetica Neue", "Arial",  sans-serif;
+     background-color: rgba(0,0,0, 0.3);
+	 border:4px solid black;
+	 font-weight:bold;
+
+	}
+
+#FM{
+
+padding:5%;
+border:30px solid #ffcab0;
+}
+
+/* *********************tradisia***************** */
+img:hover{
+	opacity:0.5;
+}
+.part{
+    background-color:#e0ffcd; 
+}
+
+.allim{
+}
+
+.image11{
+	width:60%;
+	margin:auto;
+	display:block;
+	padding-top:3%;
+	border-radius:20px;
+
+}
+
+
+.image12{
+	width:45%;
+	border-radius:20px;
+}
+
+.image13{
+	width:45%;
+	border-radius:20px;
+}
+
+.AE{
+	width:70%;
+	margin:auto;
+	display:block;
+}
+
+
+.nous{
+padding:4%;
+font-style:oblique;
+width:60%;
+margin:auto;
+text-align:center;
+}
+
+.p1{
+font-family:cursive;
+color:#608909;
+}
+
+.p2{
+	font-size:50px;
+	font-style:oblique;
+	color:#A3E710;
+}
+.p3,.p4{
+	font-style:oblique;
+	color:black;
+	font-family:cursive;
+	font-size:20px;
+}
+
+
+
+
+
+/* ------------------------ fin tradisia------------------------- */
+
+
+/* ------------------------ debut foody------------------------- */
+
+.partg{
+	 background-color:#FFFDDA;
+}
+
+.allimg{
+	float:right;
+    padding-top:4%;
+	padding-right:2%;
+	width:65%;
+}
+
+
+.image11g{
+	border-radius:20px;
+	width:100%;
+}
+
+
+.image12g{
+	width:40%;
+	border-radius:50px;
+	margin-right:15%;	
+}
+
+.image13g{
+	width:42%;
+	border-radius:50px;	
+}
+
+
+.AEg{
+	margin-top:2%;
+	display:block;
+}
+
+
+.nousg{
+  padding:30px;
+  text-align:center;
+  font-style:oblique;
+  padding-bottom:3%;
+}
+
+.p1g{
+ font-family:cursive;
+ color:#BFB71A;
+}
+
+.p2g{
+	font-size:500%;
+	font-style:oblique;
+	color:#F9EE00;
+}
+.p3g,.p4g{
+	font-style:oblique;
+	color:black;
+	font-family:cursive;
+	font-size:200%;
+}
+
+@media only screen and (max-width:1180px){
+	.allimg{
+		width:80%;
+		margin-right:6%;
+		
+	}
+	.nousg{
+	    clear:both;
+		display:block;
+		padding-top:5%;
+	}
+}
+/* ------------------------ fin foody-------------------------------------------------- */
+
+
+
+/* ******************** debut designer*************** */
+.partd{
+  background-color:#ffebbb; 
+ 
+}
+.nousd{
+ padding:30px 0px;
+ margin-left:40%;
+ text-align:center;
+ font-style:oblique;
+}
+
+.allimd{
+	margin-left:2%;
+    float:left;
+	margin-top:20px;
+}
+
+
+.image11d{
+	width:100%;
+	border-radius:20px;
+}
+
+.image12d{
+	width:100%;
+	border-radius:20px;
+	margin-left:17%;
+	margin-top:10%;
+}
+
+.image13d{
+	width:110%;
+	border-radius:40px;
+	margin-top:10%;
+}
+
+
+.p1d{
+font-family:cursive;
+color:#B40000;
+}
+
+.p2d{
+	font-size:50px;
+	font-style:oblique;
+	color:#FB423C;
+}
+
+.p3d,.p4d{
+	font-style:oblique;
+	color:black;
+	font-family:cursive;
+	font-size:40px;
+}
+
+
+
+@media only screen and (max-width:1000px){
+	.nousd{
+		 clear:both;
+		 margin-left:0;
+	}	
+
+.allimd{
+	margin-top:20px;
+	text-align:center;	
+	width:100%;
+}	
+
+.image11d{
+	width:60%;
+	margin-top:10%;
+}
+
+.image12d{
+	width:60%;
+	margin-top:10%;
+	margin-left:0px;
+}
+
+.image13d{
+	width:60%;
+	margin-top:10%;
+}
+}
+
+
+#mySidenav a {
+  width:60px;
+}
+
+
+

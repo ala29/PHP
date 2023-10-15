@@ -1,0 +1,308 @@
+body{
+margin:0; 
+background-color:#f9fbfc;
+}
+
+
+#c{ 
+	width:100%;
+	background-color:#062490;
+	padding:15px;
+	text-align:right;
+}
+
+.logos{
+	width:20px;
+	display:inline;
+	vertical-align:top;
+	padding:2px;
+}
+
+
+#touscompte{
+	padding:4px 2px;
+    background: linear-gradient(cyan,lightgreen);
+	margin:10px;
+	font-size:20px;
+}
+
+.inin{
+	background-color:#062490;
+	padding:3px;
+}
+
+#touscontact{
+	padding:4px 2px;
+    background: linear-gradient(cyan,lightgreen);
+	margin:10px;
+	font-size:20px;
+}
+
+
+#rech{
+	margin:10px;
+}
+
+#rech1{
+	width:30px;
+}
+
+
+
+
+
+#bande{
+	font-family:tahoma;
+	background-color:#ebf8fb;
+	margin:0;
+	 box-shadow: 2.5px 5px 20px #888888;
+	
+	
+}
+
+#wbulogo{
+float:left;
+}
+
+.menu ul li{
+list-style-type:none;
+display:inline-block;
+padding:30px;
+font-size:18px;
+}
+
+.menu ul{
+	margin-left:15%;
+	letter-spacing:1pt;
+}
+
+
+.menu a:link,a:visited{
+	text-decoration:none;
+	color:#062490;
+}
+#c a{
+	text-decoration:none;
+     color:white;}
+
+
+.menu a:hover{
+	color:lightgreen;
+	border:1px solid lightgreen;
+	padding:10px;
+}
+#c a:hover{
+	color:lightgreen;
+}
+
+
+#mySidenav{
+display:none;	
+}
+
+
+
+@media only screen and (max-width:800px){
+
+
+	#mySidenav{
+	display:block;
+	position:relative;
+	z-index:2;
+    position: sticky;
+	top: 0;
+     
+   }
+.menu a{
+		display:none;
+}
+
+#mySidenav a:hover{
+	font-family:monospace;
+	font-size:25px;
+	font-weight:bolder;
+	right:0;
+}
+
+#mySidenav a {
+  position: absolute;
+  right: -70px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 115px;
+  text-decoration: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  text-align:right;
+  font-size:20px;
+  padding-left:50px;
+}
+
+#Acceuil{
+  top:20px;
+   background: linear-gradient(95.2deg, rgb(130, 252, 170) 26.8%, rgb(192, 229, 246) 64%);
+ 
+}
+
+#cours {
+  top: 80px;
+   background: linear-gradient(95.2deg, rgb(140, 252, 198) 26.8%, rgb(192, 229, 246) 64%);
+}
+
+#parttj{
+  top: 140px;
+  background: linear-gradient(95.2deg, rgb(150, 252, 206) 26.8%, rgb(192, 229, 246) 64%);
+}
+
+#transport {
+  top: 200px;
+   background: linear-gradient(95.2deg, rgb(160, 252, 214) 26.8%, rgb(192, 229, 246) 64%);
+}
+#restauration {
+  top: 260px;
+   background: linear-gradient(95.2deg, rgb(170, 252, 222) 26.8%, rgb(192, 229, 246) 64%);
+}
+#conseils {
+  top:320px;
+   background: linear-gradient(95.2deg, rgb(180, 252, 230) 26.8%, rgb(192, 229, 246) 64%);
+}
+	
+}
+
+
+
+.footer1 ul{
+	list-style-type:none;
+}
+
+.pfr ul{
+	list-style: square inside;
+	margin-left:15px;
+	 line-height:310%;
+}
+
+footer *{
+    margin:0;
+	padding:0;
+}
+
+footer {
+	background-color:#14016B;
+	padding:20px;
+	font-family:'poppins',sans-serif;
+	line-height:30px;
+	color:white;
+	clear:both;
+}
+
+.footer1{
+	display:inline-block;
+	padding:30px;
+	margin:0;
+	vertical-align:top;
+}
+
+
+.logof{
+	width:20px;
+	display:inline;
+	vertical-align:top;
+	margin-right:5px;
+}
+.logos2{
+	width:30px;
+	margin-right:14pt;
+	margin-top:10px;
+}
+.footer1 p{
+	margin-left:22px;
+	margin-bottom:5px;
+}
+.footer1 a:link{
+	text-decoration:none;
+	color:white;
+}
+ .footer1 a:visited{ 
+   color:white;
+ }
+ 
+.footer1 a:hover{
+	color:lightgreen;
+}
+#ournames{
+	color:#00bbf0;
+	font-family:monospace;
+	font-size:16px;
+}
+
+#ournames:hover{
+	color:white;
+	font-size:17px;
+}
+	body {
+    font-family: 'Arimo';
+}
+
+
+
+
+
+
+
+
+.cardd {
+	display:inline-block;	
+	margin:20px 10px;
+	 max-width: 300px;
+	 border-radius: 0.5rem;
+	 background-color:#ffdfb5;
+	 box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+	 border: 1px solid transparent;
+   }
+   
+   .contentt {
+	 padding: 1.1rem;
+   }
+   
+   .imagee {
+	 object-fit: cover;
+	 width: 100%;
+	 height: 150px;
+	 background-color:#ffb677;
+   }
+   
+   .titlee {
+	 color: #1118;
+	 font-size: 1.125rem;
+	 line-height: 1.75rem;
+	 font-weight: 600;
+   }
+   
+   .descc {
+	 margin-top: 0.5rem;
+	 color: #6B7280;
+	 font-size: 0.875rem;
+	 line-height: 1.25rem;
+   }
+   
+   .action {
+	 display: inline-flex;
+	 margin: 1rem 5px;
+	 color: #ffffff;
+	 font-size: 0.875rem;
+	 line-height: 1.25rem;
+	 font-weight: 500;
+	 align-items: center;
+	 gap: 0.25rem;
+	 background-color: #72352076;
+	 padding: 4px 8px;
+	 border-radius: 4px;
+   }
+   
+   .action span {
+	 transition: .3s ease;
+   }
+   
+   .action:hover span {
+	 transform: translateX(4px);
+   }
